@@ -24,7 +24,7 @@ public class PriorityQueueLab {
         }
 
         while (!priorityQueue.isEmpty()) {
-            System.out.println(priorityQueue.peek());   
+            System.out.println(priorityQueue.peek() + " ");   
             priorityQueue.remove();                     
         }
     }
